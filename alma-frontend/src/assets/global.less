@@ -1,0 +1,90 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'PingFangSC-Regular', 'Heiti SC', 'Helvetica Neue', Helvetica, STHeiTi, sans-serif;
+  font-size: 16px;
+  background-color: var(--mainThemeColor);
+  color: var(--mainTextColor);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  /*防止点击之后元素出现闪烁*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+a,
+img {
+  /* 禁止长按链接与图片弹出菜单 */
+  -webkit-touch-callout: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  --mainThemeColor: #f6f9fc;
+  --panelBgColor: #fff;
+  --mainTextColor: #222531;
+  --mainTextHoverColor: #3861fb;
+  --containerWidth: 980px;
+
+  .container {
+    width: 100%;
+    max-width: var(--containerWidth);
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+}
+
+.cute-dialog {
+  .el-dialog {
+    border-radius: 10px;
+  }
+}
+
+.el-message-box {
+  border-radius: 10px;
+}
+
+.el-table th > .cell {
+  color: var(--mainTextColor);
+  font-size: 10px;
+}

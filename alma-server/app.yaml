@@ -1,0 +1,10 @@
+appname: alma
+entrypoints:
+  prod:
+    cmd: "java -jar /alma.jar --spring.profiles.active=prod"
+    restart: always
+    publish:
+      - "8080"
+
+
+

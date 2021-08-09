@@ -1,0 +1,2 @@
+FROM mayan31370/openjdk-alpine-with-chinese-timezone:8-jdk
+ADD  alma.jar alma.jar
