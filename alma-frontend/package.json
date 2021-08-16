@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@starcoin/starmask-onboarding": "^1.0.0",
-    "@wormhole-stc/txn-wrapper": "^1.0.4",
+    "@wormhole-stc/txn-wrapper": "^1.1.2",
     "@zeesuu/service": "^1.0.12",
     "axios": "^0.21.1",
     "bignumber.js": "^9.0.1",
